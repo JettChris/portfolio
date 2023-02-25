@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.nav{
+    background-color: white;
+}
+
+.navbar-all{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-right li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.nav-right li a:hover {
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+}
+
+.sobre-mi{
+    height: 80vh;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.information > *{
+    color: white;
+}
+
+.information-images{
+   margin-top: 4rem;
+}
+
+textarea{
+    resize: none;
+}
+
+.form{
+    display: inline;
+}
